@@ -11,7 +11,7 @@
 //Chapter Definitons
 #define chapterOne 0x00
 
-//MapID Definitons
+//Map Definitons
 #define chapterOneMap 0x4
 
 MESSAGE Definitons were set correctly

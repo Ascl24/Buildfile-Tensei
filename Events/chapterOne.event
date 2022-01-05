@@ -3,10 +3,10 @@
 
 #include EAstdlib.event
 
-EventPointerTable(0x7,chapterOne)
+EventPointerTable(0x7,chapterOneEvents)
 
 ALIGN 4
-chapterOne:
+chapterOneEvents:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
 POIN LocationBasedEvents

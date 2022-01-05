@@ -4,9 +4,12 @@
  <tileset firstgid="1025" source="TSX/01000203.tsx"/>
  <layer id="1" name="Tile Layer 1" width="15" height="10">
   <properties>
-   <property name="ChapterID" value="chapterOneMap"/>
+   <property name="ChapterID" value="chapterOne"/>
    <property name="Main" value=""/>
    <property name="MapID" value="chapterOneMap"/>
+   <property name="ObjectType" value="0x6c"/>
+   <property name="PaletteID" value="0xa3"/>
+   <property name="TileConfig" value="0x6e"/>
   </properties>
   <data encoding="csv">
 1315,1316,1316,1313,1313,1313,1314,1315,1316,1316,1348,1348,1348,1316,1316,
