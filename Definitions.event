@@ -1,0 +1,14 @@
+// initialize definitons for the entire project
+
+//Character Definitions
+#define Ray 0x01
+
+//Class Definitons
+#define RayLord 0x02
+
+//Chapter Definitons
+
+//MapID Definitons
+#define chapterOneMap 0x4
+
+MESSAGE Definitons were set correctly

@@ -1,0 +1,45 @@
+#include "EAstdlib.event"
+//BYTE 0 // 0 - 0xFF
+//SHORT 0 // 0 - 0xFFFF
+//WORD 0x69696969 // 0-0xFFFFFFFF
+
+/* Much thanks to everyone who has helped with this selfish project.
+
+Arch: thanks for the eventing guide 
+ColorzCore: the first EA inserter guide + ColorzCore.exe
+Nintenlord: You know why.
+Blazer: Inspired me to get into ROM hacking.
+7743: FEBuilder was my first foray into hacking and he's helped the community so much.
+StanH: Those updated modules saved my life.
+Darrman: thanks for that text editing guide
+Snek: my man
+
+sorry if I didn't catch your name. See you on the other side! */
+
+ORG 0x00FE0740 //0x1000000
+
+//Initialize Definitions
+#include "Definitions.event"
+
+// Install text
+#include "Text/Install Text Data.event"
+
+// Install CSV tables
+#include "Tables/Table Installer.event" 
+
+// Install graphics
+
+// Install ASM hacks
+#include "Engine Hacks/Master Hack Installer.event"
+
+// install music
+
+// Install events
+#include "Events/event_buildfile.txt"
+
+// Install maps
+
+//NOTE: Custom Layer Properties do not work properly WITH the tables. Change MAP DATA within the CSV FILE
+// #include "Maps/TMX/chapterOne.event"
+#include "Maps/Master Map Installer.event"
+MESSAGE MAP DATA ENDS AT CURRENTOFFSET
