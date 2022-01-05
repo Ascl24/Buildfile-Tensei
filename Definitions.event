@@ -2,6 +2,7 @@
 
 //Character Definitions
 #define Ray 0x01
+#define Isaac 0x02
 
 //Class Definitons
 #define rayMasterLord 0x04
