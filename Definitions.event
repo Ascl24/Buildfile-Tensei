@@ -4,9 +4,11 @@
 #define Ray 0x01
 
 //Class Definitons
+#define rayMasterLord 0x04
 #define RayLord 0x02
 
 //Chapter Definitons
+#define chapterOne 0x00
 
 //MapID Definitons
 #define chapterOneMap 0x4
