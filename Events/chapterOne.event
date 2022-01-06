@@ -44,7 +44,7 @@ ENDTRAP
 ALIGN 4
 
 Units:
-UNIT Ray RayLord 0x0 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Ray RayLord 0x0 Level(1,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [Rapier] NoAI
 UNIT
 
 BeginningScene:
